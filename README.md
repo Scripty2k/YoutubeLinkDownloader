@@ -36,3 +36,32 @@ Make your choice (1 or 2): <Enter 1 or 2>
 ## Requirements
 
 - `pytube` library: Install it using `pip install pytube`.
+
+# Video Downloader without pytube
+
+This script allows you to download videos directly using the `requests` module.
+
+## How to Use
+
+1. Run the `withoutpytube.py` script.
+2. Enter the direct video URL when prompted.
+
+## Script Details
+
+- The script sends a GET request to the provided video URL.
+- It writes the video content to a file named `downloaded_video.mp4`.
+
+## Error Handling
+
+- The script includes basic error handling to catch and display any exceptions that occur during the download process.
+
+## Example
+
+```
+Enter the direct video URL: <Enter Video URL>
+Video successfully downloaded to downloaded_video.mp4
+```
+
+## Requirements
+
+- `requests` library: Install it using `pip install requests`.

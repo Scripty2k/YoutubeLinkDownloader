@@ -7,7 +7,12 @@ def download_video():
 
     try:
         yt = YouTube(url)  # Initialize the YouTube video
-        print(f"Title: {yt.title}")
+        try:
+            print(f"Title: {yt.title}")
+        except Exception as e:
+            print(f"An error occurred while accessing the video title: {e}. Please try another video or report the issue.")
+            return
+        
         print("Choose a format:")
         print("1. MP4 (video)")
         print("2. MP3 (audio only)")
