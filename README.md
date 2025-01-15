@@ -4,9 +4,13 @@ This script allows you to download videos or audio from YouTube using the `pytub
 
 ## How to Use
 
-1. Run the script.
-2. Enter the YouTube link when prompted.
-3. Choose the format you want to download:
+1. Run the `requirements_installer.py` script to install the necessary packages:
+   ```
+   python requirements_installer.py
+   ```
+2. Run the `youtube.py` script.
+3. Enter the YouTube link when prompted.
+4. Choose the format you want to download:
    - Enter `1` to download the video in MP4 format.
    - Enter `2` to download the audio in MP3 format.
 
@@ -43,8 +47,12 @@ This script allows you to download videos directly using the `requests` module.
 
 ## How to Use
 
-1. Run the `withoutpytube.py` script.
-2. Enter the direct video URL when prompted.
+1. Run the `requirements_installer.py` script to install the necessary packages:
+   ```
+   python requirements_installer.py
+   ```
+2. Run the `withoutpytube.py` script.
+3. Enter the direct video URL when prompted.
 
 ## Script Details
 
